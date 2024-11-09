@@ -1,0 +1,230 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address[]",
+						"name": "path",
+						"type": "address[]"
+					}
+				],
+				"name": "getAmountsOut",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "amounts",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountOutMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address[]",
+						"name": "path",
+						"type": "address[]"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deadline",
+						"type": "uint256"
+					}
+				],
+				"name": "swapExactETHForTokens",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "amounts",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountOutMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address[]",
+						"name": "path",
+						"type": "address[]"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deadline",
+						"type": "uint256"
+					}
+				],
+				"name": "swapExactTokensForETH",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "amounts",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountOutMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address[]",
+						"name": "path",
+						"type": "address[]"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deadline",
+						"type": "uint256"
+					}
+				],
+				"name": "swapExactTokensForTokens",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "amounts",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DEX2.sol": "IRouter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Address.sol": {
+			"keccak256": "0x7074070c6a6ac0c49ab502ccb54a2c19146067bc7ddb6d8825f7016fe5a5e22e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://79a78b553a977dd54afc7dd6add15adfaac5f60cc806eb853e6ba2884205ff89",
+				"dweb:/ipfs/QmRJPX2w7VSBt3aRocpwiLYpYzJh92NeQyS8WsuqGsWY3U"
+			]
+		},
+		"Context.sol": {
+			"keccak256": "0x7a6c8ab0f7fee6b22b8ec6687c35b3b2b01d9b2e8634adcc6b7e4afd14fcc2ae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf2b12c70167a7c66ebfc11586f682e967bf630f265ddfdafad07fa4da1dc76d",
+				"dweb:/ipfs/QmUvucupkGVwcpGtrVPRB21bJ1pUCPoE24zAGUaE4r8fYe"
+			]
+		},
+		"DEX2.sol": {
+			"keccak256": "0x8a2c783ff428adfd570f9ddda0f7ab2ef99be76d009a625c1d3576d9a43d1812",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://79d2d3d365a2b512c2cefc5b1aeb671bfc89261b87f4fba9a836a2592dbf3cb7",
+				"dweb:/ipfs/QmckkomkbLdzhELG7fBCYoB6HXWH3eciML9FoXHMkeG5pv"
+			]
+		},
+		"Ownable.sol": {
+			"keccak256": "0x9c67dc5966d266e11598df2e276d04e0856b1548abc01041eb433c7d49f0fdbe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9784634540cbf0dab9084fa6bfa20c819549a25a64909887489a18761db3f68f",
+				"dweb:/ipfs/QmaTe4vXTKnm1b4TKRtgBw1gshzq8VW6kgipqBDH5zLyZ5"
+			]
+		},
+		"SafeERC20.sol": {
+			"keccak256": "0xf8fc86d01594b4943a22c13b358b5e4976d8b081a55dedda01e47d8b35427a94",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6060f12f60f63fc812c290e77301b339093cdbddaee10485d660cb7237cea1e3",
+				"dweb:/ipfs/QmcegEFB2dKffSmraSiBC3YKEfZTnLC3Ubz2warkvvD8y8"
+			]
+		},
+		"SafeIERC20.sol": {
+			"keccak256": "0x1d1cb8c6a876da528a9d8aa41dd742df43d7d3bc86186aedb6e0edbfee26f304",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8f830d1f99657015407a894628b65a5cbc0f2c58a2dbe5ed0bf6cc856c2e5fcf",
+				"dweb:/ipfs/QmYvQNRrZHcUshaQ7td3appQ6o1mq9qjkoCdQLYoWXpRmq"
+			]
+		},
+		"SafeMath.sol": {
+			"keccak256": "0x50706488316677198167e37ab471c48046223e5ec2a1f574ef04597e207e624a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4af16971b3e277f83ae2d70bad7588087f185cd9d6b1a04cc183bb94c051cb98",
+				"dweb:/ipfs/Qme93H8cw5fbYr7jRBex6PhNxT3BgUhnTiudoBpy4GCXpe"
+			]
+		}
+	},
+	"version": 1
+}
